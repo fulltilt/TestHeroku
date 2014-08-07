@@ -30,14 +30,15 @@
  git push heroku master
  ```
 
-If everything worked out, a bunch of Heroku logging messages should start printing out and near the end of it should be a cryptic url. Copy and paste that url into a browser and you should see the words "Hello World!"
+If everything worked out, a bunch of Heroku logging messages should start printing out and near the end of it should be a cryptic url. Copy and paste that url into a browser and you should see the words ```Hello World!```
+
 6. You can make edits to the index.html file and to push your changes to Heroku:
  
  ``` 
  git add --all
 
  git commit -m '[some message describing your updates]'
- 
+
  git push heroku master
  ```
  
