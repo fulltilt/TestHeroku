@@ -13,23 +13,34 @@
 2. Download the files at https://github.com/fulltilt/TestHeroku onto your filesystem.
 3. Type ```npm install```
 4. Go into the directory with the downloaded files and issue the following commands to initialize the Git repository:
+
  ```
  git init
+
  git add --all
+
  git commit -m 'Initial commit'
  ```
+
 5. To connect the repository to Heroku type in the following commands:
+
  ```
  heroku create
+
  git push heroku master
  ```
+
 If everything worked out, a bunch of Heroku logging messages should start printing out and near the end of it should be a cryptic url. Copy and paste that url into a browser and you should see the words "Hello World!"
 6. You can make edits to the index.html file and to push your changes to Heroku:
+ 
  ``` 
  git add --all
+
  git commit -m '[some message describing your updates]'
+ 
  git push heroku master
  ```
+ 
  As is, you only have a single page to work with and if you want to add more pages to your app, you need to create routes which is beyond the scope of this tutorial.
 
 
